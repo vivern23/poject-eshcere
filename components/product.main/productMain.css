@@ -1,0 +1,91 @@
+header{
+    margin: 0px;
+}
+.link-rail{
+    gap: 5px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 40px;
+}
+.l-r-tile{
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+    font-size: 15px;
+    font-family: 'Gill Sans', sans-serif; 
+}
+.l-r-tile:hover{
+    text-decoration: underline;
+}
+.tdn:hover{
+    text-decoration: none;
+}
+.productMain{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* --------------------------------------------------------------------------------------- */
+.main-name{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin-left: 16px;
+}
+/* ----------------------------------------------------------------------------------------------- */
+.control-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(253, 253, 253);
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.red-lin{
+    height: 1px;
+    width: 0px;
+    background-color: red;
+}
+.tile-control{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    font-size: 20px;
+    background-color: white;
+   transition: 0.5s;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+
+}
+.tile-control::after{
+    height: 2px;
+    content: '';
+    width: 0px;
+    transition: 0.2s;
+    background-color: red;
+    display: block;
+}
+.tile-control:hover::after {
+    content: '';
+    width: 100%;
+    background-color: red;
+    display: block;
+}
+.tile-control:hover{
+    color: red;
+}
+.code-tile{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    align-items: center;
+    
+}
+.ccode{
+    background-color: rgb(233, 233, 233);
+    margin-bottom: 6px;
+    margin-top: 6px ;
+}
+button{
+    border: 0px;
+    cursor: pointer;
+}
