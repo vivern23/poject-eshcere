@@ -2,12 +2,13 @@ header{
     margin: 0px;
 }
 .link-rail{
+    margin-left: 30px;
     gap: 5px;
     display: flex;
     flex-direction: row;
     text-decoration: none;
     color: black;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 .l-r-tile{
     text-decoration: none;
@@ -29,7 +30,8 @@ header{
 .main-name{
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    margin-left: 16px;
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 /* ----------------------------------------------------------------------------------------------- */
 .control-panel{
@@ -63,6 +65,7 @@ header{
     transition: 0.2s;
     background-color: red;
     display: block;
+    z-index: 2;
 }
 .tile-control:hover::after {
     content: '';
@@ -74,6 +77,7 @@ header{
     color: red;
 }
 .code-tile{
+    margin-left: 200px;
     display: flex;
     flex-direction: row;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
@@ -88,4 +92,57 @@ header{
 button{
     border: 0px;
     cursor: pointer;
+}
+/* ------------------------------------------------------------------- */
+.main-box{
+    border-top: 2px solid rgb(233, 232, 232);
+    width: 100%;
+    margin-left: 30px;
+    margin-right: 30px;
+    top: 147px;
+   
+    position: absolute;
+}
+.pic-box{
+    margin-top: 10px;
+    width: 40%;
+    height: 650px;
+    background-color: blue;
+}
+.pic-choose{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 600px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 100px; gap: 15px;
+    background-color: aqua;
+}
+.pic-top{
+    margin-left: 30px;
+    width: 40px;
+    height: 70px;
+    background: none;
+    /* background: #000;
+    opacity: 50%;
+    border-radius: 4px; */
+    transform: rotate(270deg);
+}
+.pic-bot{
+
+    margin-left: 30px;
+    width: 40px;
+    height: 70px;
+    background: none;
+    /* background: #000;
+    opacity: 50%;
+    border-radius: 4px; */
+    transform: rotate(90deg);
+
+}
+.img-pic{
+    width: 100px;
+    background-color: black;
 }
