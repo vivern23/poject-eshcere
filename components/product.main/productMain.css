@@ -99,50 +99,95 @@ button{
     width: 100%;
     margin-left: 30px;
     margin-right: 30px;
-    top: 147px;
-   
-    position: absolute;
+    top: -4px;
+    display: flex;
+    position: relative;
+    
 }
 .pic-box{
     margin-top: 10px;
-    width: 40%;
-    height: 650px;
+    width: 70%;
+    height: 550px;
     background-color: blue;
+    border-right: 2px solid rgb(233, 232, 232);
+    
 }
-.pic-choose{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 600px;
+/* .pic-pic{
+    width: 100%;
+    height: 100%;
+} */
+.opt-box{
+    margin-left: 15px;
+    border-left: 2px solid rgb(233, 232, 232);
+    width: 100%;
+    margin-top: 10px;
+}
+.main-opt{
+    margin-left: 15px;
+    width: 100%;
+    height: 100%;
+}
+.geo-poz{
+    top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    background-color: white;
+    height: 80px;
+    padding: 10px;
+    
+    
+}
+.sh{
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
     position: absolute;
-    top: 25px;
-    left: 25px;
-    width: 100px; gap: 15px;
+    z-index: -1; 
+    top:5px;
+    left: 5px;
     background-color: aqua;
+    box-shadow: 0px 0px 17px -10px;
+    
 }
-.pic-top{
-    margin-left: 30px;
-    width: 40px;
-    height: 70px;
-    background: none;
-    /* background: #000;
-    opacity: 50%;
-    border-radius: 4px; */
-    transform: rotate(270deg);
+.prodav{ 
+    font-weight:bolder ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .goe-pan{
+        width: 70px;
+        height: 52px;
+    }
+    .geo-prod{
+        font-size: 33px;
+        font-weight: bolder;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        display: flex;
+    }
+.por-dec-box{
+    top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    background-color: white;
+    height: 80px;
+    padding: 10px;
+    margin-top: 30px;
 }
-.pic-bot{
-
-    margin-left: 30px;
-    width: 40px;
-    height: 70px;
-    background: none;
-    /* background: #000;
-    opacity: 50%;
-    border-radius: 4px; */
-    transform: rotate(90deg);
-
+.por-tex{
+    font-weight:bolder ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.img-pic{
-    width: 100px;
-    background-color: black;
+.por-but{
+    height: 35px;
+    width: 80px;
+    background-color: white;
+    border: 1px rgb(212, 212, 212) solid;
+    border-radius: 4px;
+    
+}
+.pb-box{
+display: flex;
+gap: 30px;
+position: relative;
+top: 15px;
 }
