@@ -1,5 +1,4 @@
-
-    <link rel="stylesheet" href="productMain.css">
+<link rel="stylesheet" href="productMain.css">
 <div class="productMain">
     <div class="link-rail">
         <a href="#" class="l-r-tile"> категорії</a>
@@ -17,39 +16,64 @@
         <button class="tile-control">як готувати <div class="red-lin"></div></button>
         <button class="tile-control">в комплектах <div class="red-lin"></div></button>
         <button class="tile-control">аксесуари <div class="red-lin"></div></button>
-        <div class="code-tile"> код : <div class="ccode">111111</div></div>
+        <div class="code-tile"> код : <div class="ccode">111111</div>
+        </div>
     </div>
     <div class="main-box">
         <div class="pic-box">
             <div class="main-pic">
                 <img class="pic-pic" src="" alt="tea-pic">
             </div>
-            
+
         </div>
         <div class="opt-box">
             <div class="main-opt">
                 <div class="geo-poz">
                     <div class="sh"></div>
                     <div class="prodav">країна поставник чаю :</div>
-                    <div class="geo-prod"> Конго 
-                        <img  class="goe-pan" src="Без названия.png" alt="kongo-png"> 
+                    <div class="geo-prod"> Конго
+                        <img class="goe-pan" src="Без названия.png" alt="kongo-png">
                     </div>
-                    
+
                 </div>
                 <div class="por-dec-box">
                     <div class="sh"></div>
                     <div class="por-tex">виберіть порцію :</div>
                     <div class="pb-box">
-                    <button class="por-but">50гр</button>
-                    <button class="por-but">75гр</button>
-                    <button class="por-but">100гр</button>
-                    <button class="por-but">125гр</button>
-                    <button class="por-but">150гр</button>
+                        <button id="por-but1" class="por-but1 pb-onc"
+                            onclick="document.getElementById('por-but1').classList.add('pb-onc') ,document.getElementById('por-but2').classList.remove('pb-onc') ,document.getElementById('por-but3').classList.remove('pb-onc') ,document.getElementById('por-but4').classList.remove('pb-onc') ,document.getElementById('por-but5').classList.remove('pb-onc') ,document.getElementById('buy-text').innerHTML='80₴'">50гр</button>
+                        <button id="por-but2" class="por-but1"
+                            onclick="document.getElementById('por-but2').classList.add('pb-onc') ,document.getElementById('por-but1').classList.remove('pb-onc') ,document.getElementById('por-but3').classList.remove('pb-onc') ,document.getElementById('por-but4').classList.remove('pb-onc') ,document.getElementById('por-but5').classList.remove('pb-onc') ,document.getElementById('buy-text').innerHTML='120₴'">75гр</button>
+                        <button id="por-but3" class="por-but1"
+                            onclick="document.getElementById('por-but3').classList.add('pb-onc') ,document.getElementById('por-but1').classList.remove('pb-onc') ,document.getElementById('por-but2').classList.remove('pb-onc') ,document.getElementById('por-but4').classList.remove('pb-onc') ,document.getElementById('por-but5').classList.remove('pb-onc') ,document.getElementById('buy-text').innerHTML='160₴'">100гр</button>
+                        <button id="por-but4" class="por-but1"
+                            onclick="document.getElementById('por-but4').classList.add('pb-onc') ,document.getElementById('por-but1').classList.remove('pb-onc') ,document.getElementById('por-but2').classList.remove('pb-onc') ,document.getElementById('por-but3').classList.remove('pb-onc') ,document.getElementById('por-but5').classList.remove('pb-onc') ,document.getElementById('buy-text').innerHTML='200₴'">125гр</button>
+                        <button id="por-but5" class="por-but1"
+                            onclick="document.getElementById('por-but5').classList.add('pb-onc') ,document.getElementById('por-but1').classList.remove('pb-onc') ,document.getElementById('por-but2').classList.remove('pb-onc') ,document.getElementById('por-but3').classList.remove('pb-onc') ,document.getElementById('por-but4').classList.remove('pb-onc') ,document.getElementById('buy-text').innerHTML='240₴'">150гр</button>
+                    </div>
+                    <div class="pb-box">
+                        <div class="pb-pr"> +0грн</div>
+                        <div class="pb-pr"> +40грн</div>
+                        <div class="pb-pr"> +80грн</div>
+                        <div class="pb-pr"> +120грн</div>
+                        <div class="pb-pr"> +160грн</div>
+                    </div>
+
                 </div>
-                    
+                <div class="buy-box">
+                    <div class="sh"></div>
+                    <div class="bt">
+                        <div class="buy-text-top">
+                            в наявності
+                        </div>
+                        <div class="buy-text-top df">
+                            ціна:
+                        <div id="buy-text"> 80₴</div>
+                    </div>
+                    </div>
+                    <div class="buy-pb"></div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-    

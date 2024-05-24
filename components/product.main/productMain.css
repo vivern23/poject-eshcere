@@ -135,7 +135,7 @@ button{
     background-color: white;
     height: 80px;
     padding: 10px;
-    
+    background-color: rgb(252, 250, 250);
     
 }
 .sh{
@@ -172,22 +172,77 @@ button{
     height: 80px;
     padding: 10px;
     margin-top: 30px;
+    background-color: rgb(252, 250, 250);
 }
 .por-tex{
     font-weight:bolder ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.por-but{
+.por-but1{
     height: 35px;
     width: 80px;
     background-color: white;
     border: 1px rgb(212, 212, 212) solid;
     border-radius: 4px;
-    
-}
+    background-color: rgb(252, 250, 250);
+} 
 .pb-box{
 display: flex;
 gap: 30px;
 position: relative;
 top: 15px;
+
+}
+.pb-onc{
+    border: 2PX red solid;
+    color:red;
+}
+.pb-pr{
+    width: 80px;
+    text-align: center;
+    color: rgb(127, 127, 127);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+/* ------------------------------------------------------------------------------------ */
+.buy-box{
+    top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    position: relative;
+    background-color: white;
+    height: 80px;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: rgb(252, 250, 250);
+    display: flex;  
+}
+.bt{
+    display: flex;
+    flex-direction: column
+}
+.buy-text-top{
+    color: rgb(75, 75, 75);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+#buy-text{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    color: black;
+    
+}
+.df{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+    
+}
+.buy-pb{
+    border: none;
+    background-color: red;
+    border-radius: 10px;
+    width: 160px;
+    height: 50px;
 }
