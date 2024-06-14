@@ -1,0 +1,21 @@
+.bott{
+    height: 600px;
+    width: 100%;
+}
+.shad{
+    background-color: black;
+    z-index: 2;
+    opacity: 70%;
+}
+.picbot{
+    z-index: 1;
+    background-image: url(/poject-eshcere/components/bottom/pexels-osmachko-230484.jpg);
+    opacity: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
