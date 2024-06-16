@@ -1,14 +1,32 @@
 .bott{
     height: 600px;
     width: 100%;
+    color: white;
+    position: relative;
+}
+.fbott{
+    display: flex;
+    flex-direction: row;
+    opacity: 100%;
+    z-index: 1;
+}
+.number-section{
+    display: flex;
+    flex-direction: column;
+}
+.number-bot-part{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 100%;
 }
 .shad{
     background-color: black;
-    z-index: 2;
+    z-index: 0;
     opacity: 70%;
+    position: absolute;
 }
 .picbot{
-    z-index: 1;
+    z-index: -1;
     background-image: url(/poject-eshcere/components/bottom/pexels-osmachko-230484.jpg);
     opacity: 100%;
     background-repeat: no-repeat;
@@ -18,4 +36,10 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+.botj{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+
 }
