@@ -70,7 +70,17 @@ left: 130px;
     color: white;
     font-size: 23px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .immaaage{
     width: 30px;
+}
+.cards-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    
 }

@@ -1,5 +1,5 @@
 .bott{
-    height: 600px;
+    height: 400px;
     width: 100%;
     color: white;
     position: relative;
@@ -8,30 +8,43 @@
     display: flex;
     flex-direction: row;
     opacity: 100%;
-    z-index: 1;
+    z-index: 2;
+    height: 60%;
+    padding:50px;
 }
 .number-section{
     display: flex;
     flex-direction: column;
+    gap:60px;
+    z-index: 2;
 }
 .number-bot-part{
     font-size: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     opacity: 100%;
+    margin-left: -10px;
+    font-size: 20px;
 }
-.shad{
-    background-color: black;
-    z-index: 0;
-    opacity: 70%;
-    position: absolute;
+.number-top-part{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 100%;
+
 }
+.number-part{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .picbot{
-    z-index: -1;
-    background-image: url(/poject-eshcere/components/bottom/pexels-osmachko-230484.jpg);
+  
+    background-image: url(/poject-eshcere/components/bottom/pexels-osmachko-230484-photoaidcom-darken.jpg);
     opacity: 100%;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -42,4 +55,73 @@
     flex-direction: column;
     padding: 30px;
 
+}
+.linebot{
+    width: 90%;
+    height: 2px;
+    background-color: white;
+    z-index: 2;
+    margin-left: 5%;
+}
+.link-part{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+.link-tet {
+    font-size: 20px;
+}
+.link-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 5px;
+    text-decoration: none;
+    color: rgb(132, 197, 175);
+}
+.link-section{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    margin-left: 300px;
+}
+.linnk{
+    color: white;
+    text-decoration: none;
+
+}
+.linnk:hover{
+    color: rgb(228, 228, 228);
+    text-decoration: underline;
+    z-index: 10;
+}
+body{
+    z-index: -2;
+}
+.picture-bot{
+    width: 40px;
+    height: 40px;
+    
+}
+.section-bot{
+    
+    display: flex;
+    gap: 10px;
+}
+.sbott{
+ padding: 10px;
+ padding-left: 50px;
+}
+.pict-bot{
+    z-index: 5;
+    cursor: pointer;
+}
+.sbott{
+    display: flex;
+    flex-direction: row;
+}
+.srbot{
+    margin-left: 900px;
 }
